@@ -31,7 +31,7 @@ public class ContaTerminal {
         
     //Imprimr  os dados coletados
     System.out.println ("Olá " + nome + " " + sobrenome + " " +
-     "obrigado por criar uma conta em nosso banco " + " sua agência é: " + agencia + " conta: " + contaCorrente + "Seu saldo é: "+ saldo );
+     "obrigado por criar uma conta em nosso banco" + " sua agência é: " + agencia + " conta: " + contaCorrente + " Seu saldo é: "+ saldo );
 
 
 
