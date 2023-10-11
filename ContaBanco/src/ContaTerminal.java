@@ -1,3 +1,9 @@
+// ToDo: Conhecer e importar a classe scanner
+        //  Exibir as mensagens para o nosso usuário
+        // Obter pela scanner os valores digitados no terminal
+        // Exibir a mensagem conta criada
+
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -18,16 +24,14 @@ public class ContaTerminal {
         System.out.println("Digite o numero da sua Conta corrente");
         int contaCorrente = scanner.nextInt();
 
+        System.out.println("Para abertura da conta será necessario depositar uma quantia inical");
+        System.out.println("Quanto você gostaria de depositar inicialmente? ");
+        double saldo = scanner.nextDouble();
+
         
-        //Imprimr  os dados coletados
-    System.out.println ("Olá" + nome + " " + sobrenome + " " +
-     "obrigado por criar uma conta em nosso banco" + "sua agência é: " + agencia + " conta " + contaCorrente );
-
-        // ToDo: Conhecer e importar a classe scanner
-        //  Exibir as mensagens para o nosso usuário
-        // Obter pela scanner os valores digitados no terminal
-        // Exibir a mensagem conta criada
-
+    //Imprimr  os dados coletados
+    System.out.println ("Olá " + nome + " " + sobrenome + " " +
+     "obrigado por criar uma conta em nosso banco " + " sua agência é: " + agencia + " conta: " + contaCorrente + "Seu saldo é: "+ saldo );
 
 
 
